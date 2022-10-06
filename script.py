@@ -27,6 +27,7 @@ print("Base category: ", base_cat)
 cross_cats = {}
 cross_cats = set()
 
+time.sleep(1)
 new_cat = input("What cross-listed categories should we include in our search? Type DONE if you are done. ")
 while new_cat.upper() not in {"DONE"}:
     cross_cats.add(new_cat)
@@ -38,6 +39,7 @@ print("Cross categories: ", cross_cats)
 base_url = 'http://export.arxiv.org/api/query?';
 search_query = 'cat:%s' % base_cat
 
+time.sleep(1)
 start = 0
 max_results = int(input("How many results would you like to check in your base category? The search begins by looking at the most recently updated articles. "))
 
@@ -118,7 +120,7 @@ file.write(body)
 file.close()
 
 # Update the following to the correct location
-url = 'file:///Users/username/Desktop/arxiv-crossref.html'
+url = 'file:///Users/username/Desktop/arxiv-crosslist.html'
 webbrowser.open(url, new=2)  # open in new tab
 
 '''
