@@ -1,6 +1,6 @@
 # arxiv-crosslist
 
-I use this script to help me find new papers on the ArXiv that are cross-listed in the categories relevant to my research. Maybe this will be useful to someone else.
+I use this script to help me find new papers on the arXiv that are cross-listed in the categories relevant to my research. Maybe this will be useful to someone else.
 
 The script prompts the user for a "base category" and at least one "cross-listed category". The user will also be prompted to enter the number of submissions in the base category that they want to search through. The script uses the ArXiv API to check these categories and will output (and open) an HTML file with titles, abstracts, and links to the relevant PDFs on the ArXiv.
 
@@ -8,4 +8,4 @@ The script prompts the user for a "base category" and at least one "cross-listed
 
 The script should work immediately, provided you change the url to the appropriate location on your computer.
 
-You can find the list of ArXiV categories [here](https://arxiv.org/category_taxonomy). 
+You can find the list of arXiV categories [here](https://arxiv.org/category_taxonomy). 
