@@ -6,6 +6,6 @@ The script prompts the user for a "base category" and at least one "cross-listed
 
 **Example:** My main area of focus is operator algebras. But I'm generally only interested in papers that are cross-listed in mathematical physics and/or quantum physics and/or quantum algebra, etc. When prompted for the base category, I enter **math.OA**. For the cross-listed categories, I enter **math.MP**, **quant-ph**, and **math.QA**. If I want to find the absolute most recent submissions, I might enter something like 25 when prompted. The script writes an HTML file which includes the subset of the 25 most recent submissions to **math.OA** which are also cross-listed in at least one of the other categories.
 
-The script should work immediately, provided you change the url to the appropriate location on your computer.
+The script should work immediately, provided you change the url (line 122 in the Python file) to the appropriate location on your computer.
 
 You can find the list of arXiV categories [here](https://arxiv.org/category_taxonomy). 
